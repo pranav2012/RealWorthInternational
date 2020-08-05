@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    background-color: white;
+    .logo{
+        font-family: 'Redressed', cursive;
+        letter-spacing: 3px;
+        margin: 0;
+        font-size: 26px;
+        margin-left: 3% ;
+    }
+    .cert{
+        display: flex;
+        align-content: center;
+        text-decoration: none;
+        cursor: pointer;
+        color: grey;
+    }
+
+    .item{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .sublist{
+        display: flex;
+        align-content: center; 
+    }
+
+    .material-icons{
+        font-size: 17px;
+        margin-right: 4px;
+    }
+    .start{
+        display: flex;
+        flex-direction: column;
+        margin-right: 38%;
+        margin-top: 10px;
+        margin-left: 2%;
+        .subgrid{
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+            font-family: 'popins', cursive;
+            padding: 0;
+            color: grey;
+            font-weight: 500;
+            font-size: 11px;
+            width: 120%;
+            svg{
+                margin-right: 4px;
+            }
+        }
+    }
+    .nav{
+        font-family: 'popins', cursive;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        width: 30%;
+    }
+    .burger{
+        display: none;
+    }
+    .burger div{
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        margin: 5px;
+        transition: all 0.3s ease;
+    }
+}
+@media screen and (max-width: 1024px){
+    .nav{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    .header{
+        .start{
+            margin: 0;
+            .logo{
+                font-size: 20px;
+                margin-left: 26%;
+            }
+            .subgrid{
+                font-size: 9px;
+            }
+            .material-icons{
+                font-size: 18px;
+            }
+        }
+        .nav{
+            position: absolute;
+            right: 0px;
+            height: 94vh;
+            top:6vh;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            transform: translateX(100%);
+            transition: transform 0.5s ease-in;
+        }
+        .nav li{
+            opacity: 0;
+        }
+        .burger{
+            display: block;
+            margin-top: 8px;
+            padding-left: 6%;
+            cursor: pointer;
+        }
+        .nav-active{
+            transform: translateX(0%);
+            li{
+                animation: navlinkfade 0.5s ease forwards 450ms;
+            }
+        }
+        .toggle .line1{
+            transform: rotate(-45deg) translate(-5px,6px);
+        }
+        .toggle .line2{
+            opacity: 0;
+        }
+        .toggle .line3{
+            transform: rotate(45deg) translate(-5px,-6px);
+        }
+    }
+}
+
+@media screen and (max-width: 468px){
+    .header{
+        .start{
+            margin: 0;
+            
+            .logo{
+                font-size: 19px;
+                margin: 2px;
+            }
+            .subgrid{
+                font-size: 9px;
+                width: 100%;
+            }
+            .gst{
+                display: none;
+            }
+            .cert{
+                svg{
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+        }
+    }
+}
+@keyframes navlinkfade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
