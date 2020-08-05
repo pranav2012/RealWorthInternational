@@ -4,7 +4,7 @@ import Cert from '../assets/cert';
 
 function Header() {
     let [burgerclicked, setburger] = useState(false);
-    
+
     return (
         <div className='header'>
             <div className='start'>

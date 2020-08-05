@@ -1,0 +1,21 @@
+.slide-container{
+    margin-top: 3%;
+    width: 70%;
+}
+.fls{
+    display: flex;
+    justify-content: center;
+}
+.each-fade {
+    display: flex;
+  }
+
+.each-fade img{
+    width: 100%;
+  }
+  
+@media screen and (max-width: 468px){
+    .slide-container{
+        width: 90%;
+    }
+}

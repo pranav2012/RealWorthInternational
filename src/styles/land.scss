@@ -1,0 +1,68 @@
+.bg{
+    height: 600px;
+    width: 100%;
+    background:url('../assets/images/sbg.jpg') no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+    .layer{
+        background-color: rgba(22, 2, 3, 0.411);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .head{
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        margin-top: 10vh;
+        margin-left: 10vw;
+    }
+    .summ{
+        font-family: cursive;
+        color: white;
+        width:30%;
+        font-weight: 500;
+        margin: 30px 0 40px 150px;
+        }
+    .btn{
+        background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+        border: 0;
+        margin-left: 160px;
+        font-size: 15px;
+        border-radius: 3px;
+        box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+        color: white;
+        height: 6vh;
+        padding: 0 30px;
+    }
+}
+@media screen and (max-width: 1024px){
+   .bg{
+    .btn{
+        margin-left: 140px;
+    }
+    .summ{
+        width: 35%;
+        margin: 30px 0 40px 130px;
+    }
+}
+}
+@media screen and (max-width: 468px){
+    .bg{
+        .btn{
+            height: 5vh;
+            margin-left: 60px;
+            width: 35%;
+            font-size: 12px;
+        }
+        .summ{
+            width: 55%;
+            margin: 20px 0 30px 60px;
+        }
+        .head{
+            font-size:22px;
+            margin-top: 20vh;
+        }
+}
+}
