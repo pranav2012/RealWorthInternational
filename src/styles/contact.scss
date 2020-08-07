@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+#contact{
+    background: white;
+    padding-bottom: 20px;
+}
+.cbg{
+    margin-top: 10px;
+    background: url('../assets/images/cbg.jpg') center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+.cbg__layer{
+    background: linear-gradient(to left, rgba(44, 44, 236, 0.5),rgba(36, 36, 197, 0.534));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    p{
+        text-align: center;
+        color: white;
+        font-size: 1.2rem;
+    }
+}
+.contact__head{
+    margin-top: 11%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 2.875rem;
+    color: white;
+}
+
+.map__head{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: inherit;
+    color: #33475b;
+}
+
+.address{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #cbd6e2;
+    border-radius: 3px;
+    max-width: 940px;
+}
+
+.map_area{
+    flex:2;
+}
+
+.add__content{
+    flex: 1;
+    h2{
+        color: #33475b;
+    }
+    p{
+        color: grey;
+        line-height: 2px;
+        font-size: 1rem;
+    }
+}
+
+.contact__cards{
+    display: flex;
+    position: relative;
+    top:-50px;
+    width: 80%;
+    right: -130px;
+}
+
+.phonecard{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px 40px;
+    background-color: #fff;
+    border: 1px solid #eaf0f6;
+    margin-right: 30px;
+    i{
+        font-size:36px;
+    }
+}
+
+.emailcard{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px 40px;
+    background-color: #fff;
+    border: 1px solid #eaf0f6;
+    i{
+        font-size:36px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .contact__cards{
+        right: -100px;
+    }
+    .contact__head{
+        margin-top: 16%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contact__cards{
+        right: -80px;
+    }
+    .contact__head{
+        margin-top: 21%;
+    }
+    .address{
+        margin: 40px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 468px){
+    .contact__head{
+        font-size: 2rem;
+        margin-top: 50%;
+    }
+    .cbg__layer{
+        p{
+            font-size: 0.96rem;
+        }
+    }
+    .contact__cards{
+        right: -65px;
+        flex-direction: column;
+    }
+    .phonecard{
+        i{
+            font-size:28px;
+        }
+        margin-bottom: 40px;
+    }
+    .emailcard{
+        i{
+            font-size:28px;
+        }
+    }
+    .map__head{
+        font-size: 1.26rem;
+    }
+    .address{
+        width: 85%;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    
+    
+    .add__content{
+        margin-bottom: 20px;
+        h2{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 0.84rem;
+        }
+    }
+}

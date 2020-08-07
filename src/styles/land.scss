@@ -2,6 +2,7 @@
     height: 600px;
     width: 100%;
     background:url('../assets/images/sbg.jpg') no-repeat center;
+    background-attachment: fixed;
     background-size: cover;
     position: relative;
     .layer{
@@ -50,6 +51,7 @@
 }
 @media screen and (max-width: 468px){
     .bg{
+        background-attachment: scroll;
         .btn{
             height: 5vh;
             margin-left: 60px;
@@ -57,12 +59,13 @@
             font-size: 12px;
         }
         .summ{
-            width: 55%;
+            width: 60%;
             margin: 20px 0 30px 60px;
+            font-size: 17px;
         }
         .head{
-            font-size:22px;
-            margin-top: 20vh;
+            font-size:24px;
+            margin-top: 18vh;
         }
-}
+    }
 }
