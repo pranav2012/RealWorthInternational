@@ -35,7 +35,7 @@ function Contact() {
                     </div>
                     <div className='add__content'>
                         <h2>Address</h2>
-                        <a href='https://goo.gl/maps/jm7PVTWrde96xsnE6' target="_blank">
+                        <a href='https://goo.gl/maps/jm7PVTWrde96xsnE6' rel="noopener noreferrer" target="_blank">
                             <p>Real worth International,</p>
                             <p>hauz khaz enclave,</p>
                             <p>New Delhi-110016</p>

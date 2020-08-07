@@ -10,7 +10,7 @@ function Header() {
             <div className='start'>
                 <h3 className='logo'><a href='/'>RealWorthInternational</a></h3>
                 <ul className='subgrid'>
-                    <li className='sublist'><a href='https://goo.gl/maps/jm7PVTWrde96xsnE6' target="_blank"><i class="material-icons">place</i> New Delhi, India</a></li>
+                    <li className='sublist'><a href='https://goo.gl/maps/jm7PVTWrde96xsnE6' rel="noopener noreferrer" target="_blank"><i class="material-icons">place</i> New Delhi, India</a></li>
                     <li>|</li>
                     <li className='sublist gst'><i class="material-icons">assignment_turned_in</i> GST No. 08H5T4BGJNJK332</li>
                     <li className='gst'>|</li>

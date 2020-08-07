@@ -12,7 +12,7 @@ function footer() {
                                 <i className="fa fa-map-marker"></i>
                                 <div className="cta-text">
                                     <h4>Find us</h4>
-                                    <span><a href='https://goo.gl/maps/jm7PVTWrde96xsnE6' target="_blank">Real Worth International, Hauz khas, New Delhi</a></span>
+                                    <span><a href='https://goo.gl/maps/jm7PVTWrde96xsnE6' rel="noopener noreferrer" target="_blank">Real Worth International, Hauz khas, New Delhi</a></span>
                                 </div>
                             </div>
                         </div>
@@ -49,9 +49,9 @@ function footer() {
                                 </div>
                                 <div className="footer-social-icon">
                                     <span>Follow us</span>
-                                    <a href="#"><i className="fa fa-facebook-f facebook-bg"></i></a>
-                                    <a href="#"><i className="fa fa-twitter twitter-bg"></i></a>
-                                    <a href="#"><i className="fa fa-instagram google-bg"></i></a>
+                                    <a href="/#"><i className="fa fa-facebook-f facebook-bg"></i></a>
+                                    <a href="/#"><i className="fa fa-twitter twitter-bg"></i></a>
+                                    <a href="/#"><i className="fa fa-instagram google-bg"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ function footer() {
                                     <li><a href="/">Home</a></li>
                                     <li><a href="#products">Products</a></li>
                                     <li><a href="#contact">Contact us</a></li>
-                                    <li><a href="#">Catalogue</a></li>
+                                    <li><a href="/#">Catalogue</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -84,8 +84,8 @@ function footer() {
                                 <ul>
                                     <li><a href="/">Home</a></li>
                                     <li><a href="#products">Products</a></li>
-                                    <li><a href="#contact">Contact us</a></li>
-                                    <li><a href="#">Catalogue</a></li>
+                                    <li><a href="/#contact">Contact us</a></li>
+                                    <li><a href="/#">Catalogue</a></li>
                                 </ul>
                             </div>
                         </div>
