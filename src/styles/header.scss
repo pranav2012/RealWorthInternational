@@ -99,6 +99,7 @@
 }
 @media screen and (max-width: 768px){
     .header{
+        position: relative;
         .start{
             margin: 0;
             .logo{
@@ -138,7 +139,7 @@
         .nav-active{
             transform: translateX(0%);
             li{
-                animation: navlinkfade 0.3s ease forwards 300ms;
+                animation: navlinkfade 0.3s ease forwards 100ms;
             }
         }
         .toggle .line1{
