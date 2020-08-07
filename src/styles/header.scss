@@ -46,6 +46,12 @@
     .sublist{
         display: flex;
         align-content: center; 
+        a{
+            text-decoration: none;
+            color: grey;
+            display: flex;
+            align-content: center;
+        }
     }
 
     .material-icons{

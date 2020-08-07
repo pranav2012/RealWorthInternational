@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
+
 #contact{
     background: white;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 .cbg{
     margin-top: 10px;
@@ -25,6 +26,9 @@
         font-size: 1.2rem;
     }
 }
+.map_chead{
+    margin-top: 30px;
+}
 .contact__head{
     margin-top: 11%;
     text-align: center;
@@ -44,6 +48,7 @@
 }
 
 .address{
+    margin-top: 50px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -58,6 +63,7 @@
 
 .add__content{
     flex: 1;
+    margin-top:10%;
     h2{
         color: #33475b;
     }
@@ -66,8 +72,11 @@
         line-height: 2px;
         font-size: 1rem;
     }
-}
+    a:hover{
+        text-decoration: none;
 
+    }
+}
 .contact__cards{
     display: flex;
     position: relative;
@@ -85,6 +94,7 @@
     padding: 32px 40px;
     background-color: #fff;
     border: 1px solid #eaf0f6;
+    box-sizing: content-box;
     margin-right: 30px;
     i{
         font-size:36px;
@@ -99,6 +109,7 @@
     text-align: center;
     padding: 32px 40px;
     background-color: #fff;
+    box-sizing: content-box;
     border: 1px solid #eaf0f6;
     i{
         font-size:36px;
@@ -153,8 +164,7 @@
         }
     }
     .map__head{
-        font-size: 1.2rem;
-        font-family: fantasy, cursive;
+        font-size: 1rem;
     }
     .address{
         width: 85%;
@@ -163,9 +173,8 @@
         margin-right: auto;
         align-items: center;
     }
-    
-    
-    .add__content{
+
+.add__content{
         margin-bottom: 20px;
         h2{
             font-size: 1.5rem;

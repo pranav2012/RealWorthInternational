@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/App.scss';
 import Header from '../Components/header';
-//import Slideshow from '../Components/Slideshow';
 import Land from '../Components/land';
 import Contact from '../Components/Contact';
+import Footer from '../Components/footer';
 
 function App() {
   
@@ -12,6 +12,7 @@ function App() {
       <Header/>
       <Land/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
