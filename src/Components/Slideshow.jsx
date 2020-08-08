@@ -27,8 +27,8 @@ const FadeImage = () => {
         <Fade {...properties}>
         {
         fadeImages.map((img, index) =>
-          <div className="each-fade">
-            <img style={{height:"400px"}} key={index} alt='img' src={img} />
+          <div key={index} className="each-fade">
+            <img style={{height:"400px"}}  alt='img' src={img} />
           </div>)
         }
         </Fade>

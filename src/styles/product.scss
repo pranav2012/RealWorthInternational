@@ -1,0 +1,67 @@
+#products{
+    background: rgb(236, 233, 233);
+ h2{
+     font-size: 1.7rem;
+     margin-left: 20px;
+     font-family: "Amazon Ember",Arial,sans-serif;
+     color: #444;
+     line-height: 1.5;
+     font-weight: 400;
+ }
+    padding-bottom: 10px;
+}
+
+.gridlist{
+    display: flex;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.gridlist::-webkit-scrollbar{
+    display: none;
+}
+
+.product__typebg{
+    background: white;
+    margin: 20px;
+    padding: 0 20px 20px 20px;
+}
+
+.cards{
+    flex:1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    border: 1px solid rgb(241, 231, 231);
+    max-width: 350px;
+    border-radius: 10px;
+    height: 250px;
+    background: white;
+    h3{
+        font-family: "Amazon Ember",Arial,sans-serif;
+        font-size: 1rem;
+    }
+}
+
+.cardimg{
+    width: 98%;
+    margin: auto;
+    max-height: 200px;
+    object-fit: contain;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 468px){
+    #products{
+        h2{
+            margin-left: 5px;
+            font-size: 1.3rem;
+        }
+    }
+}

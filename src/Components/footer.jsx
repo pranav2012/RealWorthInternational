@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/footer.scss';
+import {footer_page, btn_ref} from '../data/data';
 
 function footer() {
     return (
@@ -12,7 +13,7 @@ function footer() {
                                 <i className="fa fa-map-marker"></i>
                                 <div className="cta-text">
                                     <h4>Find us</h4>
-                                    <span><a href='https://goo.gl/maps/jm7PVTWrde96xsnE6' rel="noopener noreferrer" target="_blank">Real Worth International, Hauz khas, New Delhi</a></span>
+                                    <span><a href={btn_ref.location} rel="noopener noreferrer" target="_blank">Real Worth International, Hauz khas, New Delhi</a></span>
                                 </div>
                             </div>
                         </div>
@@ -21,7 +22,7 @@ function footer() {
                                 <i className="fa fa-phone"></i>
                                 <div className="cta-text">
                                     <h4>Call us</h4>
-                                    <span><a href="tel:+91-7878787878">+91-7878787878</a></span>
+                                    <span><a href={"tel:" + btn_ref.phone}>{btn_ref.phone}</a></span>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +31,7 @@ function footer() {
                                 <i className="fa fa-envelope"></i>
                                 <div className="cta-text">
                                     <h4>Mail us</h4>
-                                    <span><a href="mailto:realworthinternational@info.com">realworthinternational@info.com</a></span>
+                                    <span><a href={"mailto:" + btn_ref.email}>{btn_ref.email}</a></span>
                                 </div>
                             </div>
                         </div>
@@ -44,14 +45,13 @@ function footer() {
                                     <h3 className='footlogo'><a href='/'>RealWorthInternational</a></h3>
                                 </div>
                                 <div className="footer-text">
-                                    <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                    elit,Lorem ipsum dolor sit amet.</p>
+                                    <p>{footer_page.summary}</p>
                                 </div>
                                 <div className="footer-social-icon">
                                     <span>Follow us</span>
-                                    <a href="/#"><i className="fa fa-facebook-f facebook-bg"></i></a>
-                                    <a href="/#"><i className="fa fa-twitter twitter-bg"></i></a>
-                                    <a href="/#"><i className="fa fa-instagram google-bg"></i></a>
+                                    <a href={footer_page.insta}><i className="fa fa-instagram google-bg"></i></a>
+                                    <a href={footer_page.twitter}><i className="fa fa-twitter twitter-bg"></i></a>
+                                    <a href={footer_page.google}><i className="fa fa-google facebook-bg"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -71,16 +71,16 @@ function footer() {
                     </div>
                 </div>
             </div>
-            <div class="copyright-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                            <div class="copyright-text">
+            <div className="copyright-area">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-6 col-lg-6 text-center text-lg-left">
+                            <div className="copyright-text">
                                 <p>Copyright &copy; {new Date().getFullYear()}, All Right Reserved <a href="/">Real Worth International</a></p>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                            <div class="footer-menu">
+                        <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                            <div className="footer-menu">
                                 <ul>
                                     <li><a href="/">Home</a></li>
                                     <li><a href="#products">Products</a></li>

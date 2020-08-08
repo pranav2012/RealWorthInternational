@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+
+.navcover{
+    padding-top: 75px;
+}
+.sticky-header{
+    position: fixed;
+    z-index: 30;
+    width: 100%;
+}
+
 .header{
     width: 100%;
-    max-height: 80px;
-    top:0;
     display: flex;
     justify-content: space-around;
     margin: 0;
@@ -145,7 +153,7 @@
         .nav-active{
             transform: translateX(0%);
             li{
-                animation: navlinkfade 0.3s ease forwards 100ms;
+                opacity: 1;
             }
         }
         .toggle .line1{
@@ -161,6 +169,9 @@
 }
 
 @media screen and (max-width: 468px){
+    .navcover{
+        padding-top: 0px;
+    }
     .header{
         .start{
             margin: 0;
@@ -183,15 +194,5 @@
                 }
             }
         }
-    }
-}
-@keyframes navlinkfade {
-    from{
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
     }
 }
