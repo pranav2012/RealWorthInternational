@@ -11,7 +11,7 @@ function Header() {
             <div className='sticky-header'>
                 <div className='header'>
                     <div className='start'>
-                        <h3 className='logo'><a href='/'>RealWorthInternational</a></h3>
+                        <h3 className='logo'><a href='#home'>RealWorthInternational</a></h3>
                         <ul className='subgrid'>
                             <li className='sublist'><a href={btn_ref.location} rel="noopener noreferrer" target="_blank"><i className="material-icons">place</i> New Delhi, India</a></li>
                             <li>|</li>
@@ -21,7 +21,7 @@ function Header() {
                         </ul>
                     </div>
                     <ul className={`nav ${burgerclicked ? 'nav-active' : ''}`}>
-                        <li className='item'><a href='/'>Home</a></li>
+                        <li className='item'><a href='#home'>Home</a></li>
                         <li className='item'><a href='#products'>Product</a></li>
                         <li className='item'><a href='#contact'>Contact Us</a></li>
                     </ul>

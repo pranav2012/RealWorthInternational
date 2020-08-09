@@ -1,0 +1,42 @@
+.developer{
+    color: #878787;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 10px;
+    a{
+        text-decoration: none;
+        color: rgb(223, 215, 215);
+    }
+}
+
+.developer a:hover{
+    color:#ff5e14;
+    text-decoration: underline;
+}
+
+.btop_btn{
+    border:none;
+    background: #ff5e14;
+    padding: 0 20px;
+    height: 4vh;
+    color: white;
+    font-weight: 400;
+    font-size: 0.66rem;
+    border-radius: 12px;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    top:10px;
+    display: block;
+}
+
+@media screen and (max-width: 468px){
+    .btop_btn{
+        font-weight: 700;
+        padding: 0 15px;
+        height: 3vh;
+    }
+    .developer{
+        font-size: 0.6rem;
+    }
+}

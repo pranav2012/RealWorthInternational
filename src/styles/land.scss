@@ -1,3 +1,13 @@
+.Typewriter{
+    margin-top: 12vh;
+}
+.Typewriter__wrapper{
+    color: white;
+    font-weight: 800;
+    margin-left: 10vw;
+    font-size: 2.2rem;
+}
+
 .bg{
     height: 700px;
     width: 100%;
@@ -20,9 +30,11 @@
         margin-left: 10vw;
     }
     .summ{
-        font-family: cursive;
+        font-family: inherit;
         color: white;
         width:30%;
+        font-size: 1.4rem;
+        line-height: 1.5;
         font-weight: 500;
         margin: 30px 0 40px 150px;
         }
@@ -39,7 +51,7 @@
     }
 }
 @media screen and (max-width: 1024px){
-   .bg{
+    .bg{
     .btn{
         margin-left: 140px;
     }
@@ -49,7 +61,23 @@
     }
 }
 }
+@media screen and (max-width: 768px){
+    .Typewriter__wrapper{
+        font-size: 2rem;
+        margin-left: 8vh;
+    }
+    .bg{
+    .summ{
+        font-size: 1.2rem;
+        width: 50%;
+    }
+}
+}
 @media screen and (max-width: 468px){
+    .Typewriter__wrapper{
+        font-size: 1rem;
+        margin-left: 4vw;
+    }
     .bg{
         background-attachment: scroll;
         .btn{
@@ -61,7 +89,7 @@
         .summ{
             width: 60%;
             margin: 20px 0 30px 60px;
-            font-size: 17px;
+            font-size: 16px;
         }
         .head{
             font-size:24px;

@@ -1,14 +1,22 @@
 import React from 'react';
 import '../styles/land.scss';
 import {home} from '../data/data';
+import Typewriter from 'typewriter-effect';
 
 export default function Land() {
     return (
-        <div className='bg'>
+        <div id='home' className='bg'>
             <div className='layer'>
-            <h1 className='head'>{home.home_heading}</h1>
+            <Typewriter
+                    options={{
+                        strings: [home.home_heading],
+                        autoStart: true,
+                        loop: true,
+                    }}
+                    
+            />
                 <p className='summ'>{home.home_paragraph}</p>
-                <button className='btn'>{home.home_btn_text}</button>
+                <button onClick={()=> window.location = "#products" } className='btn'>{home.home_btn_text}</button>
             </div>
         </div>
     )

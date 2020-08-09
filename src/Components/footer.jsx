@@ -5,6 +5,7 @@ import {footer_page, btn_ref} from '../data/data';
 function footer() {
     return (
         <div className='footer-section'>
+            <button onClick={()=>{window.location='#home'}} className='btop_btn'>Back to Top</button>
             <div className="container">
                 <div className="footer-cta pt-5 pb-5">
                     <div className="row">
@@ -61,7 +62,7 @@ function footer() {
                                     <h3>Useful Links</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="/">Home</a></li>
+                                    <li><a href="#home">Home</a></li>
                                     <li><a href="#products">Products</a></li>
                                     <li><a href="#contact">Contact us</a></li>
                                     <li><a href="/#">Catalogue</a></li>
@@ -70,6 +71,7 @@ function footer() {
                         </div>
                     </div>
                 </div>
+                <div className='developer'>Developed by <a href='https://pranav2012.github.io'>@Pranav Agarwal</a></div>
             </div>
             <div className="copyright-area">
                 <div className="container">
@@ -82,9 +84,9 @@ function footer() {
                         <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                             <div className="footer-menu">
                                 <ul>
-                                    <li><a href="/">Home</a></li>
+                                    <li><a href="#home">Home</a></li>
                                     <li><a href="#products">Products</a></li>
-                                    <li><a href="/#contact">Contact us</a></li>
+                                    <li><a href="#contact">Contact us</a></li>
                                     <li><a href="/#">Catalogue</a></li>
                                 </ul>
                             </div>

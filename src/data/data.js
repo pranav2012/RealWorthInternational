@@ -11,6 +11,7 @@ export const address = {
     address_line1:"Real worth International, ",
     address_line2:"hauz khaz enclave, ",
     address_line3:"New Delhi-110016",
+    map_embeded:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.4812980555!2d77.0688978924221!3d28.527280342051878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1596649234189!5m2!1sen!2sin",
 }
 
 export const logo = {
@@ -19,9 +20,9 @@ export const logo = {
 }
 
 export const home ={
-    home_heading:"High Quality Products",
-    home_paragraph:"Hey, Welcome we assure you our best Services, you will find Sleeping Bags, bags, etc",
-    home_btn_text:"Know More"
+    home_heading:"Hey, Welcome to Real Worth International",
+    home_paragraph:"We assure you our best Services, you will find Sleeping Bags, Portable tents, Mosquito net's & many more items to come...",
+    home_btn_text:"See Products"
 }
 
 export const contact_page = {
