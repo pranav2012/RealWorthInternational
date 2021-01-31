@@ -22,7 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "gatsby build",
-    "test": "react-scripts test",
+    "test": "react-scripts build",
     "eject": "react-scripts eject",
     "develop": "gatsby develop"
   },
