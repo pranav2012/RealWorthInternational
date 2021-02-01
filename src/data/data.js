@@ -1,17 +1,17 @@
 export const btn_ref = {
-    phone:"+91-7878787878",
-    phone1:"+91-5858585858",
-    phone2:"+91-3838383838",
-    email:"realworthinternational@info.com",
-    location:"https://goo.gl/maps/511QBanifQFFNzBYA",
-    gst:"08H5T4BGJNJK332"
+    phone:"+91-9205838707",
+    phone1:"+91-9205838707",
+    phone2:"",
+    email:"ravi@realworthint.com",
+    location:"https://goo.gl/maps/zN6PwremDJU5ZMYJA",
+    gst:"09DIPPK4022N5ZN"
 }
 
 export const address = {
-    address_line1:"Real worth International, ",
-    address_line2:"hauz khaz enclave, ",
-    address_line3:"New Delhi-110016",
-    map_embeded:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.4812980555!2d77.0688978924221!3d28.527280342051878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1596649234189!5m2!1sen!2sin",
+    address_line1:"B-177, ",
+    address_line2:"Rama Park B Block, Loni Ghazibad ",
+    address_line3:"Uttar Pradesh-201102",
+    map_embeded:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d437.16719443260314!2d77.27088654397846!3d28.769189185661688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cff27302b7d41%3A0x88b3b47d1f413a98!2sRam%20Park%2C%20Loni%2C%20Ghaziabad%2C%20Uttar%20Pradesh%20201102!5e0!3m2!1sen!2sin!4v1612179859798!5m2!1sen!2sin",
 }
 
 export const logo = {

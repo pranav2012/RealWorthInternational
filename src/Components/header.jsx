@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/header.scss';
-import Cert from '../assets/cert';
+import Cert from './cert.jsx';
 import {btn_ref} from '../data/data';
 
 function Header() {
@@ -13,11 +13,11 @@ function Header() {
                     <div className='start'>
                         <h3 className='logo'><a href='#home'>RealWorthInternational</a></h3>
                         <ul className='subgrid'>
-                            <li className='sublist'><a href={btn_ref.location} rel="noopener noreferrer" target="_blank"><i className="material-icons">place</i> New Delhi, India</a></li>
+                            <li className='sublist'><a href={btn_ref.location} rel="noopener noreferrer" target="_blank"><i className="material-icons">place</i> U.P, India</a></li>
                             <li>|</li>
-                            <li className='sublist gst'><i className="material-icons">assignment_turned_in</i> GST No.{btn_ref.gst}</li>
+                            <li className='sublist gst'><a href='/gst.pdf' target="_blank"><i className="material-icons">assignment_turned_in</i> GST No.{btn_ref.gst}</a></li>
                             <li className='gst'>|</li>
-                            <li ><a className='cert' href='/#' target="_blank"> <Cert /> <p> TrustSEAL Verified</p></a></li>
+                            <li ><a className='cert' href='/creg.pdf' target="_blank"> <Cert /> <p> TrustSEAL Verified</p></a></li>
                         </ul>
                     </div>
                     <ul className={`nav ${burgerclicked ? 'nav-active' : ''}`}>

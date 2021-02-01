@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/footer.scss';
-import {footer_page, btn_ref} from '../data/data';
+import {footer_page, btn_ref, address} from '../data/data';
 
 function footer() {
     return (
@@ -14,7 +14,7 @@ function footer() {
                                 <i className="fa fa-map-marker"></i>
                                 <div className="cta-text">
                                     <h4>Find us</h4>
-                                    <span><a href={btn_ref.location} rel="noopener noreferrer" target="_blank">Real Worth International, Hauz khas, New Delhi</a></span>
+                                    <span><a href={btn_ref.location} rel="noopener noreferrer" target="_blank">{address.address_line1 + address.address_line2 + address.address_line3}</a></span>
                                 </div>
                             </div>
                         </div>
@@ -66,6 +66,8 @@ function footer() {
                                     <li><a href="#products">Products</a></li>
                                     <li><a href="#contact">Contact us</a></li>
                                     <li><a href="/#">Catalogue</a></li>
+                                    <li><a href="/creg.pdf">Trust Seal</a></li>
+                                    <li><a href="/gst.pdf">GST Number</a></li>
                                 </ul>
                             </div>
                         </div>
