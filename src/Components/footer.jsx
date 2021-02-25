@@ -65,7 +65,7 @@ function footer() {
                                     <li><a href="#home">Home</a></li>
                                     <li><a href="#products">Products</a></li>
                                     <li><a href="#contact">Contact us</a></li>
-                                    <li><a href="/#">Catalogue</a></li>
+                                    <li><a href="/Brochure.pdf">Catalogue</a></li>
                                     <li><a href="/creg.pdf">Trust Seal</a></li>
                                     <li><a href="/gst.pdf">GST Number</a></li>
                                 </ul>
@@ -89,7 +89,7 @@ function footer() {
                                     <li><a href="#home">Home</a></li>
                                     <li><a href="#products">Products</a></li>
                                     <li><a href="#contact">Contact us</a></li>
-                                    <li><a href="/#">Catalogue</a></li>
+                                    <li><a href="/Brochure.pdf">Catalogue</a></li>
                                 </ul>
                             </div>
                         </div>
