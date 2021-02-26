@@ -38,7 +38,9 @@
 .product__typebg{
     background: white;
     margin: 20px;
-    padding: 0 20px 20px 20px;
+    padding: 20px;
+    border:1px solid white;
+    border-radius: 12px;
 }
 
 .cards{
@@ -48,7 +50,7 @@
     align-items: center;
     margin-right: 15px;
     border: 1px solid rgb(241, 231, 231);
-    max-width: 250px;
+    max-width: 300px;
     border-radius: 10px;
     height: 250px;
     background: white;

@@ -21,7 +21,7 @@ export const logo = {
 
 export const home ={
     home_heading:"Hey, Welcome to Real Worth International",
-    home_paragraph:"We assure you our best Services, you will find Sleeping Bags, Portable tents, Mosquito net's & many more items to come...",
+    home_paragraph:"We assure you our best Services, you will find Process control, Filtration, Hydraulics, Metering/Regulation Machinery, Heat Tracing, Cathodic Protection equipmets, Sleeping Bags, Portable tents, Mosquito net's & many more items to come...",
     home_btn_text:"See Products"
 }
 
@@ -45,6 +45,176 @@ export const footer_page = {
     twitter: "/#",
 }
 
+export const process= [
+    {
+        img: require('../assets/images/process/double-singleferrule.png'),
+        title: 'Double/Single Ferrule Fittings & Pipe Fittings'
+    },
+    {
+        img: require('../assets/images/process/valves.png'),
+        title: '2,3 & 5 Valve Manifolds, Double Block & Bleed Valves'
+    },
+    {
+        img: require('../assets/images/process/valves-manifolds.png'),
+        title: 'Valves and Manifolds'
+    },
+    {
+        img: require('../assets/images/process/temp-preasuregauges.png'),
+        title: "Pressure and Temperature Gauges"
+    },
+    {
+        img: require('../assets/images/process/ballvalves.png'),
+        title: "Ball Valves, Needle Valves, Check Valves & Relief Valves"
+    },
+    {
+        img: require('../assets/images/process/preassurefittingvalves.png'),
+        title:"Ultra High Pressure Fitting & Valves"
+    },
+    {
+        img: require('../assets/images/process/hydraulictubing.png'),
+        title:"Instrumentation & Hydraulic Tubing"
+    },
+    {
+        img: require('../assets/images/process/relasecouplings.png'),
+        title:"Quick Release Couplings"
+    }
+]
+
+export const filtration = [
+    {
+        img: require('../assets/images/filtration/one.png'),
+        title: "Fuel Filters & Water Separators"
+    },
+    {
+        img: require('../assets/images/filtration/two.png'),
+        title: "Air & Gas Filters"
+    },
+    {
+        img: require('../assets/images/filtration/three.png'),
+        title: "Compressed Air & Gas Filters"
+    },
+    {
+        img: require('../assets/images/filtration/four.png'),
+        title: "Compressed Air & Gas Filters"
+    },
+    {
+        img: require('../assets/images/filtration/five.png'),
+        title: "Hydraulic Filters’ Fluid Conditioning Monitors"
+    },
+    {
+        img: require('../assets/images/filtration/six.png'),
+        title: "Portable Filtration Trolleys"
+    },
+    {
+        img: require('../assets/images/filtration/seven.png'),
+        title: "Gas Filters"
+    },
+    {
+        img: require('../assets/images/filtration/eight.png'),
+        title: "Basket Gas Filters & Heat Exchangers"
+    },
+]
+
+export const hydraulics = [
+    {
+        img: require('../assets/images/hydraulics/one.png'),
+        title: "Hydraulic Hoses & Fittings"
+    },
+    {
+        img: require('../assets/images/hydraulics/two.png'),
+        title: "Thermo-presto Hoses & Fittings"
+    },
+    {
+        img: require('../assets/images/hydraulics/four.png'),
+        title: "High Pressure Hoses & Fittings"
+    },
+    {
+        img: require('../assets/images/hydraulics/three.png'),
+        title: "Stainless Steel Flexible Hoses"
+    },
+    {
+        img: require('../assets/images/hydraulics/five.png'),
+        title: "Composite Hose Pipes"
+    },
+    {
+        img: require('../assets/images/hydraulics/six.png'),
+        title: "Cam & Grove Couplings"
+    },
+    {
+        img: require('../assets/images/hydraulics/seven.png'),
+        title: "Stainless Steel Jubilee Clips"
+    },
+    {
+        img: require('../assets/images/hydraulics/eight.png'),
+        title: "Hammer Union Couplings"
+    },
+]
+
+export const metering = [
+    {
+        img: require('../assets/images/metering/one.png'),
+        title: "Pilot-operated Gas Pressure Regulators"
+    },
+    {
+        img: require('../assets/images/metering/two.png'),
+        title: "Direct-acting Gas Pressure Regulators"
+    },
+    {
+        img: require('../assets/images/metering/three.png'),
+        title: "Safety Devices"
+    },
+    {
+        img: require('../assets/images/metering/four.png'),
+        title: "Gas Governors"
+    },
+    {
+        img: require('../assets/images/metering/five.png'),
+        title: "Flow Meters"
+    },
+    {
+        img: require('../assets/images/metering/six.png'),
+        title: "Volume Converters"
+    },
+    {
+        img: require('../assets/images/metering/seven.png'),
+        title: "Gas Trains"
+    },
+    {
+        img: require('../assets/images/metering/eight.png'),
+        title: "Pressure Reducing Metering Systems"
+    },
+]
+
+export const heating = [
+    {
+        img: require('../assets/images/heat-cathodic/one.png'),
+        title: "Self Regulating Heating Cables"
+    },
+    {
+        img: require('../assets/images/heat-cathodic/two.png'),
+        title: "Temperature Control and Monitoring"
+    },
+    {
+        img: require('../assets/images/heat-cathodic/three.png'),
+        title: "Termination Units"
+    },
+    {
+        img: require('../assets/images/heat-cathodic/four.png'),
+        title: "Heat Shrinkable Sleeves"
+    },
+    {
+        img: require('../assets/images/heat-cathodic/five.png'),
+        title: "Transformer Rectifier Units"
+    },
+    {
+        img: require('../assets/images/heat-cathodic/six.png'),
+        title: "Smart Transformer Rectifier Unit (STRU)"
+    },
+    {
+        img: require('../assets/images/heat-cathodic/seven.png'),
+        title: "Mica Band Heaters"
+    },
+]
 
 export const sleepingbagcard = [
        {
@@ -159,3 +329,4 @@ export const mosquitonetcard = [
         title: 'Mosquito net',
     },
 ]
+

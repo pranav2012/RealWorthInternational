@@ -2,7 +2,7 @@
     margin-top: 12vh;
 }
 .Typewriter__wrapper{
-    color: white;
+    color: #31e3f0;
     font-weight: 800;
     margin-left: 10vw;
     font-size: 2.2rem;
@@ -11,12 +11,12 @@
 .bg{
     height: 700px;
     width: 100%;
-    background:url('../assets/images/sbg.jpg') no-repeat center;
+    background:url('../assets/images/slide1.jpg') no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
     .layer{
-        background-color: rgba(22, 2, 3, 0.411);
+        background-color: rgba(22, 2, 3, 0.349);
         position: absolute;
         top: 0;
         left: 0;
@@ -31,15 +31,15 @@
     }
     .summ{
         font-family: 'Indie Flower';
-        color: white;
-        width:30%;
-        font-size: 1.4rem;
+        color: rgb(255, 255, 255);
+        width:45%;
+        font-size: 1.3rem;
         line-height: 1.5;
         font-weight: 500;
         margin: 30px 0 40px 150px;
         }
     .btn{
-        background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+        background: linear-gradient(45deg, #14dddd 30%, #0669c5 90%);
         border: 0;
         margin-left: 160px;
         font-size: 15px;
@@ -48,6 +48,7 @@
         color: white;
         height: 6vh;
         padding: 0 30px;
+        font-weight: bolder;
     }
 }
 @media screen and (max-width: 1024px){
@@ -69,7 +70,7 @@
     .bg{
     .summ{
         font-size: 1.2rem;
-        width: 50%;
+        width: 65%;
     }
 }
 }
@@ -88,7 +89,7 @@
             font-weight: 600;
         }
         .summ{
-            width: 60%;
+            width: 75%;
             margin: 20px 0 30px 60px;
             font-size: 16px;
         }

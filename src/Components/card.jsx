@@ -7,7 +7,7 @@ export default function Cards({data}) {
   return (
     <div className="cards">
       <Zoom><img className='cardimg' src={data.img} alt="product"></img></Zoom>
-      <h3>{data.title}</h3>
+      <h3 style={{textAlign:"center"}}>{data.title}</h3>
     </div>
   );
 }
