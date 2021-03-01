@@ -3,7 +3,7 @@ export const btn_ref = {
     phone1:"+91-9205838707",
     phone2:"",
     email:"ravi@realworthint.com",
-    location:"https://goo.gl/maps/zN6PwremDJU5ZMYJA",
+    location:"https://goo.gl/maps/ZHmWop2SS3jDW8fq5",
     gst:"09DIPPK4022N5ZN"
 }
 
