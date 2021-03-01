@@ -21,7 +21,7 @@ export const logo = {
 
 export const home ={
     home_heading:"Hey, Welcome to Real Worth International",
-    home_paragraph:"We assure you our best Services, you will find Process control, Filtration, Hydraulics, Metering/Regulation Machinery, Heat Tracing, Cathodic Protection equipmets, Sleeping Bags, Portable tents, Mosquito net's & many more items to come...",
+    home_paragraph:"RealWorthInternational assure you our best Services, you will find Process control, Filtration, Hydraulics, Metering/Regulation Machinery, Heat Tracing, Cathodic Protection equipmets, Sleeping Bags, Portable tents, Mosquito net's & many more items to come...",
     home_btn_text:"See Products"
 }
 
