@@ -11,7 +11,7 @@ export const address = {
     address_line1:"B-177, ",
     address_line2:"Rama Park B Block, Loni Ghazibad ",
     address_line3:"Uttar Pradesh-201102",
-    map_embeded:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d437.16719443260314!2d77.27088654397846!3d28.769189185661688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cff27302b7d41%3A0x88b3b47d1f413a98!2sRam%20Park%2C%20Loni%2C%20Ghaziabad%2C%20Uttar%20Pradesh%20201102!5e0!3m2!1sen!2sin!4v1612179859798!5m2!1sen!2sin",
+    map_embeded:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.6776811138884!2d77.27738281508542!3d28.75903888236802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDQ1JzMyLjUiTiA3N8KwMTYnNDYuNSJF!5e0!3m2!1sen!2sin!4v1614534053595!5m2!1sen!2sin",
 }
 
 export const logo = {

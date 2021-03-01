@@ -16,7 +16,7 @@
     background-size: cover;
     position: relative;
     .layer{
-        background-color: rgba(22, 2, 3, 0.349);
+        background-color: rgba(8, 0, 1, 0.712);
         position: absolute;
         top: 0;
         left: 0;
@@ -36,12 +36,12 @@
         font-size: 1.3rem;
         line-height: 1.5;
         font-weight: 500;
-        margin: 30px 0 40px 150px;
+        margin: 30px 0 40px 140px;
         }
     .btn{
         background: linear-gradient(45deg, #14dddd 30%, #0669c5 90%);
         border: 0;
-        margin-left: 160px;
+        margin-left: 140px;
         font-size: 15px;
         border-radius: 3px;
         box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
@@ -54,11 +54,12 @@
 @media screen and (max-width: 1024px){
     .bg{
     .btn{
-        margin-left: 140px;
+        margin-left: 100px;
+        height: 3vh;
     }
     .summ{
-        width: 35%;
-        margin: 30px 0 40px 130px;
+        width: 50%;
+        margin: 30px 0 40px 100px;
     }
 }
 }
@@ -71,27 +72,32 @@
     .summ{
         font-size: 1.2rem;
         width: 65%;
+        margin: 30px 0 40px 80px;
+    }
+    .btn{
+        height: 4vh;
+        margin-left: 80px;
     }
 }
 }
 @media screen and (max-width: 468px){
     .Typewriter__wrapper{
-        font-size: 1rem;
-        margin-left: 4vw;
+        font-size: 0.96rem;
+        margin-left: 10px;
     }
     .bg{
         background-attachment: scroll;
         .btn{
             height: 5vh;
-            margin-left: 60px;
-            width: 36%;
+            margin-left: 14px;
+            width: 40%;
             font-size: 10px;
             font-weight: 600;
         }
         .summ{
-            width: 75%;
-            margin: 20px 0 30px 60px;
-            font-size: 16px;
+            width: 90%;
+            margin: 20px 0 30px 12px;
+            font-size: 12px;
         }
         .head{
             font-size:24px;

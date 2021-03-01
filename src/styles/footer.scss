@@ -153,6 +153,14 @@ margin-left: auto;
       color: white;
   }
 }
+
+@media screen and (max-width: 1024px){
+.btop_btn{
+  height: 2.5vh;
+  padding: 0 30px;
+}
+}
+
 @media screen and (max-width: 768px){
   .footer-widget-heading h3{
     margin-top: 6px;

@@ -5,6 +5,7 @@ import Land from '../Components/land';
 import Product from '../Components/product';
 import Contact from '../Components/Contact';
 import Footer from '../Components/footer';
+import Company from '../Components/Company';
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <Land/>
       <Product/>
+      <Company/>
       <Contact/>
       <Footer/>
     </div>
